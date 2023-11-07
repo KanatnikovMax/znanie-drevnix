@@ -1,6 +1,8 @@
 ﻿#include <Windows.h>
 #include <fstream>
 #include <iostream>
+#include <algorithm>
+#include <vector>
 
 #ifndef Байкал 
 
@@ -72,6 +74,7 @@
 #define приток_Байкала ostream
 #define отток_Байкала istream
 #define меняло std::swap
+#define забор std::vector
 #define отщипнуть get
 
 внедрить целина = int;
@@ -86,6 +89,23 @@
 внедрить мерило = size_t;
 внедрить розсуд = bool;
 
+
+//box part
+
+#define отцепить begin
+#define прекратить end
+#define скопировать copy
+#define отсортировать sort
+#define найти find
+#define удалить erase
+#define вставить insert
+#define слияние merge
+#define сравнить compare
+#define максимум max_element
+#define минимум min_element
+#define развернуть reverse
+#define перемешать shuffle
+#define сравнить std::equal
 
 перепись счёт_древних_русов{ ноль = 0, целковый = 1, полушка = 2, четвертушка = 3, осьмушка = 4,
 пудовичок = 5, медячок = 6, серебрячок = 7, золотничок = 8, девятичок = 9, десятичок = 10 };
