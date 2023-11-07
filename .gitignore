@@ -36,3 +36,5 @@ out
 
 .vscode
 .vscode/*
+
+test.sh
