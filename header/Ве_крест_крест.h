@@ -1,18 +1,25 @@
-﻿#ifdef _WIN32
-#include <Windows.h>
-#endif
-#include <string>
+﻿#include <string>
 #include <fstream>
 #include <iostream>
 #include <algorithm>
 #include <vector>
 
-#ifndef Байкал 
+#ifndef Байкал
 
 #define енто =
 #define равен ==
 #define плюсплюс ++
 #define минусминус --
+
+#define больше >
+#define меньше <
+#define большеРавно >=
+#define меньшеРавно =<
+
+#define плюс +
+#define минус -
+#define умножить *
+#define делить /
 
 #define царь_батюшка_главный int main
 #define внедрить using
@@ -20,7 +27,13 @@
 #define молвить cout
 #define внемлить cin
 #define воздать return
+
+#ifdef _WIN32
+#include <Windows.h>
 #define вперёд_славяне SetConsoleOutputCP(1251)
+#else
+#define вперёд_славяне ;
+#endif
 
 #define пахать do
 #define покуда while
@@ -28,6 +41,8 @@
 
 #define коли if
 #define отнюдь else
+#define правда true
+#define ложь false
 
 #define династия class
 #define семейство struct
@@ -97,9 +112,6 @@
 внедрить мерило енто size_t;
 внедрить розсуд енто bool;
 
-
-//box part
-
 #define отцепить begin
 #define прекратить end
 #define скопировать copy
@@ -118,17 +130,20 @@
 #define начало start
 #define конец end
 
+#define вконец push_back
+#define убратьПоследний pop_back
+
 #define ж ;
 #define ЮЮ >>
 #define ББ <<
 
 //add cpp files and rename it
 
-#include "sort_static.cpp"
+#include "cpp/sort_static.cpp"
 
-#define пузырьки bubbleSort
-#define внедрение insertionSort
-#define быстрая quickSort
+#define пузырьки static_bubbleSort
+#define внедрение static_insertionSort
+#define быстрая static_quickSort
 
 // для сортировки векторов: отсортировать(вектор.начало(), вектор.конец())
 
@@ -142,7 +157,17 @@
 #define внемлить_ящерский wcin
 #define молвить_ящерский wcout
 
+// только для linux систем
 
+#ifndef _WIN32
+
+#include <unistd.h>
+
+#define запуск exec*
+#define ожидать sleep
+#define чуть_ожидать usleep
+
+#endif
 
 
 перепись счёт_древних_русов{ ноль енто 0, целковый енто 1, полушка енто 2, четвертушка енто 3, осьмушка енто 4,
