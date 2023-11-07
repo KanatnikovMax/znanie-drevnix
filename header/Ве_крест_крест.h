@@ -1,8 +1,15 @@
-﻿#include <Windows.h>
+﻿#ifndef Байкал
+#define Байкал
+
+#ifdef _WIN32
+#include <Windows.h>
+#define вперёд_славяне SetConsoleOutputCP(1251)
+
+#endif
+
 #include <fstream>
 #include <iostream>
 
-#ifndef Байкал 
 
 #define царь_батюшка_главный int main
 #define внедрить using
@@ -10,7 +17,6 @@
 #define молвить cout
 #define внемлить cin
 #define воздать return
-#define вперёд_славяне SetConsoleOutputCP(1251)
 
 #define пахать do
 #define покуда while
