@@ -139,11 +139,11 @@
 
 //add cpp files and rename it
 
-#include "cpp/sort_static.cpp"
+#include "сторонний_код/сортировка.cpp"
 
-#define пузырьки static_bubbleSort
-#define внедрение static_insertionSort
-#define быстрая static_quickSort
+#define пузырьки bubbleSort
+#define внедрение insertionSort
+#define быстрая quickSort
 
 // для сортировки векторов: отсортировать(вектор.начало(), вектор.конец())
 
