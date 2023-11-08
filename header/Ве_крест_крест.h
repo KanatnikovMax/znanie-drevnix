@@ -29,8 +29,8 @@
 #define семейство struct
 #define перепись enum
 
-#define бить_ящеров break
-#define добить_ящеров continue
+#define добить_ящеров break
+#define бить_ящеров continue
 #define путевой_камень switch
 #define путь case
 #define базированно default
