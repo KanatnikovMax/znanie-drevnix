@@ -17,6 +17,7 @@
 #define молвить cout
 #define внемлить cin
 #define воздать return
+#define † ;
 
 #define пахать do
 #define покуда while
