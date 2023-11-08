@@ -80,6 +80,11 @@
 #define меняло std::swap
 #define отщипнуть get
 
+#define сложить +
+#define помножить *
+#define отнять -
+#define поделить /
+
 внедрить целина = int;
 внедрить вель_дробь = double;
 внедрить малый_дробь = float;
