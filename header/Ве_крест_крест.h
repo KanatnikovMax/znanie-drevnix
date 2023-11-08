@@ -70,6 +70,8 @@
 #define суд_Перуна auto
 #define аки static_cast
 #define очами_стрельнуть peek
+#define окончить_счет break
+#define продолжить_счет continue
 
 #define зачерпнуть getline
 #define добрый_молодец good
