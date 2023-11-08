@@ -1,10 +1,11 @@
 ﻿#ifndef Байкал
 #define Байкал
 
+#define вперёд_славяне 
+
 #ifdef _WIN32
 #include <Windows.h>
 #define вперёд_славяне SetConsoleOutputCP(1251)
-
 #endif
 
 #include <fstream>
@@ -61,6 +62,7 @@
 #define встрой inline
 #define кощей static
 #define однобокий unsigned
+#define руна unsigned char
 #define пытать_ящера try
 #define поймать_ящера catch
 #define хутор namespace
@@ -70,6 +72,7 @@
 #define аки static_cast
 #define очами_стрельнуть peek
 
+#define читать read
 #define зачерпнуть getline
 #define добрый_молодец good
 #define змей_подколодный fail
