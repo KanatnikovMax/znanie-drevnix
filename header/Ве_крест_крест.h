@@ -1,15 +1,29 @@
-﻿#ifndef Байкал
-#define Байкал
-
-#ifdef _WIN32
-#include <Windows.h>
-#define вперёд_славяне SetConsoleOutputCP(1251)
-
-#endif
-
+﻿#include <string>
 #include <fstream>
 #include <iostream>
+#include <algorithm>
+#include <vector>
 
+#ifndef Байкал
+
+#define енто =
+#ifdef Русская_арифметика
+
+#define равен ==
+#define плюсплюс ++
+#define минусминус --
+
+#define больше >
+#define меньше <
+#define большеРавно >=
+#define меньшеРавно =<
+
+#define плюс +
+#define минус -
+#define умножить *
+#define делить /
+
+#endif
 
 #define царь_батюшка_главный int main
 #define внедрить using
@@ -18,12 +32,21 @@
 #define внемлить cin
 #define воздать return
 
+#ifdef _WIN32
+#include <Windows.h>
+#define вперёд_славяне SetConsoleOutputCP(1251)
+#else
+#define вперёд_славяне ;
+#endif
+
 #define пахать do
 #define покуда while
 #define для for
 
 #define коли if
 #define отнюдь else
+#define правда true
+#define ложь false
 
 #define династия class
 #define семейство struct
@@ -78,22 +101,85 @@
 #define приток_Байкала ostream
 #define отток_Байкала istream
 #define меняло std::swap
+#define забор std::vector
 #define отщипнуть get
 
-внедрить целина = int;
-внедрить вель_дробь = double;
-внедрить малый_дробь = float;
-внедрить буква = char;
-внедрить много_букав = Русь::string;
-внедрить бестолочь = void;
-внедрить карлик = short;
-внедрить долговязый = long;
-внедрить Петр_Первый = long long;
-внедрить мерило = size_t;
-внедрить розсуд = bool;
+внедрить целина енто int;
+внедрить вель_дробь енто double;
+внедрить малый_дробь енто float;
+внедрить буква енто char;
+внедрить много_букав енто Русь::string;
+внедрить бестолочь енто void;
+внедрить карлик енто short;
+внедрить долговязый енто long;
+внедрить Петр_Первый енто long;
+внедрить мерило енто size_t;
+внедрить розсуд енто bool;
 
+#define отцепить begin
+#define прекратить end
+#define скопировать copy
+#define отсортировать sort
+#define найти find
+#define удалить erase
+#define вставить insert
+#define слияние merge
+#define сравнить compare
+#define максимум max_element
+#define минимум min_element
+#define развернуть reverse
+#define перемешать shuffle
+#define аналогичен Русь::equal
+#define размер size
+#define начало start
+#define конец end
 
-перепись счёт_древних_русов{ ноль = 0, целковый = 1, полушка = 2, четвертушка = 3, осьмушка = 4,
-пудовичок = 5, медячок = 6, серебрячок = 7, золотничок = 8, девятичок = 9, десятичок = 10 };
+#define вконец push_back
+#define убратьПоследний pop_back
+
+//add cpp files and rename it
+
+#include "cpp/sort_static.cpp"
+
+#define пузырьки static_bubbleSort
+#define внедрение static_insertionSort
+#define быстрая static_quickSort
+
+// для сортировки векторов: отсортировать(вектор.начало(), вектор.конец())
+
+//культурно скопированный текст из других форков
+
+// автор: teslaproduuction
+#define бардак cerr
+#define хаос clog
+#define необъятный_бардак wcerr
+#define необъятный_хаос wclog
+#define внемлить_ящерский wcin
+#define молвить_ящерский wcout
+
+// только для linux систем
+
+#ifndef _WIN32
+
+#include <unistd.h>
+
+#define запуск exec*
+#define ожидать sleep
+#define чуть_ожидать usleep
+
+#endif
+
+// необязательная часть
+
+#ifdef _дополнения
+
+#define ж ;
+#define ЮЮ >>
+#define ББ <<
+
+#endif
+
+перепись счёт_древних_русов{ ноль енто 0, целковый енто 1, полушка енто 2, четвертушка енто 3, осьмушка енто 4,
+пудовичок енто 5, медячок енто 6, серебрячок енто 7, золотничок енто 8, девятичок енто 9, десятичок енто 10 };
 
 #endif
