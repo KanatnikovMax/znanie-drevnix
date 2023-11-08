@@ -38,6 +38,9 @@
 #define правда true
 #define кривда false
 
+#define благо 0
+#define напасть 1
+
 #define прыг_скок endl
 #define новь new
 #define казнь delete
