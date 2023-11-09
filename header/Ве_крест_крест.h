@@ -77,7 +77,7 @@
 #define вск eof
 #define приток_Байкала ostream
 #define отток_Байкала istream
-#define меняло std::swap
+#define меняло swap
 #define отщипнуть get
 
 внедрить целина = int;
