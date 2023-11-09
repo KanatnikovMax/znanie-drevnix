@@ -38,6 +38,8 @@
 #define правда true
 #define кривда false
 
+#define наследовать_род :
+
 #define прыг_скок endl
 #define новь new
 #define казнь delete
