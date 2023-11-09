@@ -19,7 +19,7 @@
 #define воздать return
 
 #define законы argv
-#define количество_законов argc
+#define число_законов argc
 
 #define пахать do
 #define покуда while
