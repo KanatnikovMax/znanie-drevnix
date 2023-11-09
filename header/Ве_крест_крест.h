@@ -15,6 +15,7 @@
 #define внедрить using
 #define Русь std
 #define молвить cout
+#define известить cerr
 #define внемлить cin
 #define воздать return
 
