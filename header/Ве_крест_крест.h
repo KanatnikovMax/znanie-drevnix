@@ -42,7 +42,7 @@
 #define новь new
 #define казнь delete
 #define туда_не_знаю_куда nullptr
-#define НИЧТО NULL
+#define IQ_ЯЩЕРОВ NULL
 #define судьба random
 #define приказ_княжий const
 #define мощь pow
