@@ -1,0 +1,20 @@
+CompileFlags:
+  Add: [-std=c++17]
+Diagnostics:
+  ClangTidy:
+    Add:
+      [
+        performance*,
+        modernize*,
+        readability*,
+        bugprone*,
+        llvm-*,
+        portability*,
+        clang-analyzer-*,
+      ]
+    Remove:
+      [
+        modernize-use-trailing-return-type,
+        bugprone-easily-swappable-parameters,
+        modernize-use-using,
+      ]
