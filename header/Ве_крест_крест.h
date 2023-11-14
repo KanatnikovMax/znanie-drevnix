@@ -4,7 +4,9 @@
 #ifdef _WIN32
 #include <Windows.h>
 #define вперёд_славяне SetConsoleOutputCP(1251)
-
+#else
+#include <unistd.h>
+#define вперёд_славяне
 #endif
 
 #include <fstream>
