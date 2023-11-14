@@ -15,6 +15,7 @@
 
 #define царь_батюшка_главный int main
 #define внедрить using
+#define обозвать typedef
 #define Русь std
 #define молвить cout
 #define внемлить cin
