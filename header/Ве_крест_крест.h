@@ -83,6 +83,18 @@
 #define меняло std::swap
 #define отщипнуть get
 
+#define внедрить extern
+#define постоянное_изъявление constexpr
+#define переделать reinterpret_cast
+#define изменись dynamic_cast
+#define яснопонятный explicit
+#define молчать noexcept
+#define беспрепятственный mutable
+#define стань_свободным const_cast
+#define молить_Перуна static_assert
+#define наше thread_local
+#define жертва_Перуну volatile
+
 внедрить целина = int;
 внедрить вель_дробь = double;
 внедрить малый_дробь = float;
