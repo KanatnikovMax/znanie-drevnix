@@ -21,11 +21,15 @@
 #define внемлить cin
 #define воздать return
 
+#define законы argv
+#define количество_законов argc
+
 #define пахать do
 #define покуда while
 #define для for
 
 #define коли if
+#define ибо else if
 #define отнюдь else
 
 #define династия class
@@ -38,8 +42,27 @@
 #define путь case
 #define базированно default
 
+#define короче <
+#define длиньше >
+#define равнится ==
+#define не_равнится !=
+#define почти_короче <=
+#define почти_длиньше >=
+#define поход_налево <<
+#define поход_направо >>
+#define это_ли ?
+#define або_ему :
+
 #define правда true
 #define кривда false
+// Можно будет писать `воздать Благо;`
+#define Благо 0
+#define Напасть 1
+
+#define И &&
+#define ИЛИ ||
+#define ИСЛИ ^
+#define НЕ_ТАКОЙ !
 
 #define прыг_скок endl
 #define новь new
@@ -80,7 +103,7 @@
 #define вск eof
 #define приток_Байкала ostream
 #define отток_Байкала istream
-#define меняло std::swap
+#define меняло Русь::swap
 #define отщипнуть get
 
 внедрить целина = int;
