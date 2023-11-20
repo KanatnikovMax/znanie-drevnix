@@ -19,6 +19,14 @@
 #define Русь std
 #define молвить cout
 #define внемлить cin
+
+#define бардак cerr
+#define хаос clog
+#define необъятный_бардак wcerr
+#define необъятный_хаос wclog
+#define внемлить_ящерский wcin
+#define молвить_ящерский wcout
+
 #define воздать return
 
 #define пахать do
